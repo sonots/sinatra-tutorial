@@ -1,4 +1,4 @@
-# myapp.rb
+# my_app.rb
 require 'sinatra/base'
 
 class MyApp < Sinatra::Base
@@ -10,3 +10,4 @@ class MyApp < Sinatra::Base
     "Hello #{params[:name]}!"
   end
 end
+
