@@ -1,4 +1,4 @@
-# app.rb
+# myapp.rb
 require 'sinatra'
 
 get '/hello' do

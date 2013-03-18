@@ -2,5 +2,6 @@
 require 'bundler/setup'
 Bundler.require(:default)
 
-require File.expand_path('app.rb', File.dirname(__FILE__))
+# require_relative does not work here
+require File.expand_path('myapp', File.dirname(__FILE__))
 run Sinatra::Application
