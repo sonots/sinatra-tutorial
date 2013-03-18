@@ -1,7 +1,7 @@
 # my_app.rb
 require 'sinatra'
 
-get '/hello' do
+get '/' do
   'Hello World!'
 end
 
