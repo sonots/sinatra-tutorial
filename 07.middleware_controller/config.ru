@@ -3,4 +3,6 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 require './my_app'
-run Sinatra::Application
+require './bye_controller'
+use ByeController
+run MyApp
