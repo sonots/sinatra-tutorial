@@ -1,11 +1,8 @@
-# encoding: utf-8
-require 'bundler/setup'
-Bundler.require(:default)
-
+require 'sinatra/base'
 require './hello_controller'
-require './post_controller'
+require './posts_controller'
 ROUTES = {
   '/'      => HelloController,
-  '/posts' => PostController,
+  '/posts' => PostsController,
 }
 run Rack::URLMap.new(ROUTES)

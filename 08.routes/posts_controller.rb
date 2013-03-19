@@ -1,4 +1,4 @@
-class PostController < Sinatra::Base
+class PostsController < Sinatra::Base
   get '/' do
   end
 
