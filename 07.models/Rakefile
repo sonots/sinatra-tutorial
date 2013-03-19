@@ -1,0 +1,10 @@
+require 'sinatra/activerecord'
+require 'sinatra/activerecord/rake'
+
+ActiveRecord::Base.establish_connection(
+  :adapter => 'sqlite3',
+  :host => 'localhost',
+  :username => 'USERNAME', #or root
+  :password => 'PASSWORD',
+  :database => 'db/YOURDATABASE'
+)
