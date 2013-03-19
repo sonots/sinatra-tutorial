@@ -1,0 +1,11 @@
+# encoding: utf-8
+source 'https://rubygems.org'
+
+gem 'sinatra', require: 'sinatra/base'
+gem 'activesupport'
+gem 'activerecord'
+gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
+gem 'sqlite3'
+gem 'rake'
+# cf. http://blog.ruedap.com/entry/20110416/ruby_sinatra_active_record_3_migrate
+gem 'foreman'

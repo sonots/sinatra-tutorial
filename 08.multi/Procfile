@@ -1,0 +1,2 @@
+web: bundle exec rackup web/config.ru
+worker: bundle exec ruby worker/notification.rb
